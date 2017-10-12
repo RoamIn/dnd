@@ -1,0 +1,68 @@
+.header{background: #fff;}
+.header-con{width: 980px;height: 40px;margin: 0 auto;}
+.top-icon{float: left;width: 182px;height: 40px;background: url(../images/top-icon.png) no-repeat;}
+.top-btn{float: right;width: 240px;height: 40px;line-height: 40px;text-align: right;}
+.top-btn a{display: inline-block;margin-left: 5px;margin-right: 5px;color: #2a2a2a;vertical-align: middle;}
+.top-btn a:hover{color: #f15f33;}
+.top-btn i{display: inline-block;width: 1px;height: 10px;vertical-align: middle;background-color: #2a2a2a;}
+
+.s1{background: url(../images/s1-both-sides.jpg) no-repeat center top;display: block;height: 480px;}
+.s1-con{background: url(../images/s1-con.jpg) no-repeat;width: 980px;height: 480px;margin:0 auto;}
+
+/************************************************/
+/*edit width,height,top,left*/
+body {
+	background: #fff;
+}
+
+.s1-con-btn{}
+
+/**********************************************/
+
+.s2{width: 980px;margin: 30px auto 0;background: #fff;}
+.s2-game-list li { float: left; margin-right: 100px;position: relative;}
+.s2-game-list .icon-hot{position: absolute;top: -10px;left: -10px;background:#f50022;color: #fff;font-size: 12px;line-height:20px;padding: 0 3px;}
+.s2-game-list .icon-up{position: absolute;top: -10px;left: -10px;background:#3388d7;color: #d8ff00;font-size: 14px;line-height:16px;padding: 2px 3px;}
+.s2-game-list .icon-up em {display: inline-block;background: url(../images/icon-up.jpg) no-repeat;width: 9px;height: 11px;line-height:12px;}
+.s2-game-list li.last { margin: 0; }
+.s2-game-icon { display: block; height: 170px; width: 170px; background: url(../images/games.jpg) no-repeat; }
+
+.s2-game-list .game1{ background-position: 0 0; }
+.s2-game-list .game1:hover { background-position: 0 -170px; }
+.s2-game-list .game2{ background-position: -261px 0; }
+.s2-game-list .game2:hover { background-position: -261px -170px; }
+.s2-game-list .game3{ background-position: -529px 0; }
+.s2-game-list .game3:hover { background-position: -529px -170px; }
+.s2-game-list .game4{ background-position: -790px 0; }
+.s2-game-list .game4:hover { background-position: -790px -170px; }
+
+.s2-game-title { font-size: 24px; font-family:"Microsoft YaHei",微软雅黑; margin-top: 11px; font-weight: normal;text-align: center;}
+.s2-game-title a {display: block;color: #000; padding-left: 3px;white-space: nowrap;}
+.s2-game-title a:hover {color: #6f6f6f;}
+.s2-game-title .sub {color: #c0c0c0;font-size: 16px;}
+.s2-game-title .sub:hover {color: #c0c0c0;}
+.s2-con{width: 980px;height: 230px;margin:0 auto;margin-top: 24px;}
+.s2-title {font-size: 28px;color: #000;line-height: 39px;height: 39px;padding-left: 8px;font-weight:normal;}
+.s2-title span {color: #0170bd;}
+.s2-title .small {color: #9fabb5;font-size: 20px;font-weight: normal;margin-left: 5px;}
+.s2-title-icon { display: inline-block; width: 22px; background: url(../images/titile-icon.jpg) no-repeat left 10px; margin-right: 10px;}
+.s2-con-icon{float: left;background: url(../images/icon.jpg) no-repeat;width: 154px;height: 154px;}
+.s2-con-info{float: left;margin: 0 71px 0 33px;height: 120px;width:338px;*margin-top:10px;_margin-top:-10px;}
+.s2-con-info h3{font-size: 34px;color: #484848;}
+.h3-span{vertical-align: middle;}
+.h3-img{display: inline-block;vertical-align: middle;_margin-top:40px;margin-left: 5px;background: url(../images/stars.png) no-repeat;width: 73px;height: 12px;}
+.s2-con-info p{font-size: 14px;color: #8e8d8d;line-height: 20px;*margin-top:0px;_margin-top:-10px;}
+.s2-con-btn{float: right;margin-top: 18px;background: url(../images/btn.jpg);width:371px;height: 120px;}
+
+.s3{background: #d4d4d4;margin-top: 30px;}
+.s3-con{width: 980px; height: 100px; margin: 0 auto;text-align: center;color:  #9f9f9f;background: #d4d4d4;}
+.s3-con-top{padding-top: 36px;width: 350px;display: inline-block;}
+.s3-con p{line-height: 20px;}
+.s3-con-p1{_margin-top:10px;*margin-top: 10px;}
+.s3-con-ul{float: left;margin-top: 12px;margin-left: 10px;*margin-top: 14px;_margin-top:14px;}
+.s3-con-li a{color: #9f9f9f;}
+.s3-con-li a:hover{color: #13b802;}
+.s3-con-li i{display: inline-block;width: 1px;height: 10px;margin-left: 10px;margin-right: 10px;background-color: #9f9f9f;vertical-align: middle;}
+ .s3-con-icon-1{float: left;background: url(../images/safe-icon.png);width: 66px;height: 33px;vertical-align: middle;margin:5px 0;*margin-bottom:10px;_margin-bottom:10px;}
+.s3-con-icon-2{display: inline-block;background: url(../images/police-icon.png);width: 23px;height: 23px;vertical-align: middle;}
+.s3-con-p-span{vertical-align: middle;}

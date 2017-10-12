@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    form(action='jade', method='post')
+        p Game name:
+        input(type='text', name='GameName')
+
+        p Download Link:
+        input(type='text', name='DownloadLink')
+
+        p More Title:
+            input(type='text', name='MoreTitle')
+        
+        input(type='submit' value='Submit')
+    

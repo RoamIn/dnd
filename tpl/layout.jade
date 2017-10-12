@@ -1,0 +1,46 @@
+doctype html
+html
+    head
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(charset='utf-8')
+        title #{ GameName } | #{ GameName }游戏技巧规则-同城游
+        link(rel='shortcut icon', href='http://static.tcy365.com/uc/common/images/favicon.ico')
+        meta(name='keywords', content='#{ GameName },#{ GameName }下载,#{ GameName }游戏技巧规则,同城游')
+        meta(name='description', content='同城游为您提供#{ GameName }下载、#{ GameName }游戏技巧规则等游戏信息。只要在同城游即可享受#{ GameName }下载、#{ GameName }游戏技巧规则等游戏服务')
+        link(rel='stylesheet', href='/tpl/style/base.css')
+        link(rel='stylesheet', href='/tpl/style/g1.css')
+    body
+        .header
+            .header-con
+                a.top-icon(href='#{ DownloadLink }', target='_blank')
+                .top-btn.yahei
+                    span
+                        a(href='#{ DownloadLink }', target='_blank') 进入官网
+                        i
+                    span
+                        a(href='#{ DownloadLink }', target='_blank') 登录
+                        i
+                    span
+                        a(href='#{ DownloadLink }', target='_blank') 注册
+                        i
+                    span
+                        a(href='#{ DownloadLink }', target='_blank') 下载游戏
+        .s1
+            .s1-con.p_r
+                a#DownloadBtn.s1-con-btn.p_a(href='#{ DownloadLink }', target='_blank', style="top:#{ DownloadBtnStyle.top }px;left:#{ DownloadBtnStyle.left }px;width:#{ DownloadBtnStyle.width }px;height:#{ DownloadBtnStyle.height }px;")
+        .s2
+            h2#S2Title.s2-title.yahei #{ MoreTitle }
+            .s2-con
+                ul.s2-game-list
+                    each game,index in GameList
+                        li(class='#{ (index === GameList.length - 1) ? "last" : "" }')
+                            a.s2-game-icon(class='game#{ index + 1 }', href='#{ DownloadLink }', target='_blank')
+                            h6.s2-game-title
+                                a(href='#{ DownloadLink }', target='_blank') #{ game }
+        .s3
+            .s3-con.simsun
+                .s3-con-top
+                p #{ CompanyName }
+                p #{ CompanyInfo }
+        .footer
+            .footer-con

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+
+    ul
+        li
+            a(href="/command") run a command
+        li
+            a(href="/command/build") build jade
+    ul
+        li
+            a(href="/download/img") download a image
+        li
+            a(href="/download/tpl") download a tpl
