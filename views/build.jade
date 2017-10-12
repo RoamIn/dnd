@@ -1,7 +1,7 @@
 extends layout
 
 block content
-    form(action='jade', method='post')
+    form(action='command/build', method='post')
         p Game name:
         input(type='text', name='GameName')
 
@@ -9,7 +9,7 @@ block content
         input(type='text', name='DownloadLink')
 
         p More Title:
-            input(type='text', name='MoreTitle')
+        input(type='text', name='MoreTitle')
         
         input(type='submit' value='Submit')
     

@@ -5,18 +5,7 @@ const router = express.Router();
 
 /* GET commadn listing. */
 router.get('/', function (req, res, next) {
-    const exec = require('child_process').exec;
-    const cmdStr = 'node public/javascripts/command';
-
-    exec(cmdStr, function (err, stdout, stderr) {
-        if (err) {
-            console.log('get weather api error:' + stderr);
-        } else {
-            var data = JSON.parse(stdout);
-
-            console.log(data);
-        }
-    });
+    res.render('build');
 });
 
 /* GET exec listing. */
@@ -34,7 +23,9 @@ router.get('/exec', function (req, res, next) {
 });
 
 /* GET build listing. */
-router.get('/build', function (req, res, next) {
+router.post('/build', function (req, res, next) {
+    console.log(req.body);
+
     const options = {
         GameName: '斗地主',
 
